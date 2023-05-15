@@ -1,7 +1,6 @@
 .topnav {
-    background-color: blue;
+    background-color: rgb(39, 39, 65);
     padding: 50px;
-    color: black;
 }
 
 .topnav a {
@@ -9,5 +8,4 @@
     text-align: center;
     padding: 25px;
     margin: 25px;
-    font-family: 'Courier New', Courier, monospace;
 }
