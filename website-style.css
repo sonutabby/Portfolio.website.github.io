@@ -21,3 +21,19 @@
     src:url(RushTurbo.ttf);
     display: none;
 }
+
+video#trailer {
+    height: 500px;
+    width: auto;
+    display: block;
+    pointer-events: none;
+}
+
+h1 {
+    justify-content: flex-end;
+    float: right;
+    display: flex;
+    margin: 100px;
+    margin-top: -500px;
+    text-align: center;
+}
