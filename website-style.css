@@ -1,11 +1,23 @@
 .topnav {
     background-color: rgb(39, 39, 65);
+    background: -webkit-linear-gradient(to right, rgb(22, 22, 42), rgb(48, 48, 63));
+    background: linear-gradient(to right, rgb(22, 22, 42), rgb(48, 48, 63));
     padding: 50px;
+    text-decoration: none;
+    font-family: 'myFont';
 }
 
 .topnav a {
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 25px;
     margin: 25px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+@font-face {
+    font-family: 'myFont';
+    src:url(RushTurbo.ttf);
+    display: none;
 }
