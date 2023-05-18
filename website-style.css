@@ -1,10 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .topnav {
     background-color: rgb(39, 39, 65);
     background: -webkit-linear-gradient(to right, rgb(22, 22, 42), rgb(48, 48, 63));
     background: linear-gradient(to right, rgb(22, 22, 42), rgb(48, 48, 63));
-    padding: 50px;
+    padding: 25px;
     text-decoration: none;
-    font-family: 'myFont';
+    font-family: 'Infinity';
 }
 
 .topnav a {
@@ -14,6 +19,8 @@
     margin: 25px;
     text-decoration: none;
     margin-right: 50px;
+    float: right;
+    margin-top: 5px;
 }
 
 @font-face {
@@ -22,18 +29,47 @@
     display: none;
 }
 
-video#trailer {
-    height: 500px;
-    width: auto;
-    display: block;
-    pointer-events: none;
+@font-face {
+    font-family: 'Infinity';
+    src: url(Infinity.otf);
 }
 
-h1 {
-    justify-content: flex-end;
-    float: right;
-    display: flex;
-    margin: 100px;
-    margin-top: -500px;
+video#trailer {
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(40%);
+}
+
+@media (min-aspect-ratio: 16/9) {
+    video#trailer {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.content {
     text-align: center;
+}
+
+.content h1 {
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: 'myFont';
+}
+
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-family: 'Infinity';
 }
