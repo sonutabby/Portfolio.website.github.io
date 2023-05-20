@@ -102,11 +102,12 @@ p {
     margin-top: 25px;
     font-family: 'Infinity';
     text-align: center;
+    margin-bottom: 100px;
 }
 
 
 .social-media {
-    margin-top: 200px;
+    margin-top: 180px;
 }
 
 #Facebook {
@@ -139,4 +140,33 @@ p {
     margin-top: -100px;
     margin-left: 550px;
     text-decoration: none;
+}
+
+.infoLogin {
+    margin-top: 50px;
+    background-attachment: fixed;
+}
+
+#stun {
+    pointer-events: none;
+    margin-top: 10px;
+    width: 1460px;
+    height: 800px;
+    filter: brightness(40%);
+}
+
+.infoLogin h2 {
+    margin-top: 200px;
+    letter-spacing: 30px;
+}
+
+.topnav a:hover {
+    color: blueviolet;
+    transition: .3s;
+}
+
+.content a:hover {
+    color: black;
+    background: white;
+    transition: .7s;
 }
