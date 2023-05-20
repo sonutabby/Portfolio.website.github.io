@@ -9,7 +9,7 @@
     background: linear-gradient(to right, rgb(22, 22, 42), rgb(48, 48, 63));
     padding: 25px;
     text-decoration: none;
-    font-family: 'Infinity';
+    font-family: 'Geomatrix';
 }
 
 .topnav a {
@@ -32,6 +32,21 @@
 @font-face {
     font-family: 'Infinity';
     src: url(Infinity.otf);
+}
+
+@font-face {
+    font-family: 'Geomatrix';
+    src: url(Geomatrix\ Light.otf);
+}
+
+@font-face {
+    font-family: 'Monogram';
+    src: url(Monogram\ Holder.ttf);
+}
+
+@font-face {
+    font-family: 'Prom';
+    src: url(Prom.ttf);
 }
 
 video#trailer {
@@ -60,6 +75,7 @@ video#trailer {
     font-weight: 600;
     margin-top: 100px;
     font-family: 'myFont';
+    text-align: center;
 }
 
 .content a {
@@ -72,4 +88,55 @@ video#trailer {
     border-radius: 50px;
     margin-top: 20px;
     font-family: 'Infinity';
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Prom';
+    color: rgb(39, 39, 65);
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+p {
+    margin-top: 25px;
+    font-family: 'Infinity';
+    text-align: center;
+}
+
+
+.social-media {
+    margin-top: 200px;
+}
+
+#Facebook {
+    display: block;
+    margin-top: 25px;
+    margin-left: 500px;
+    margin-right: auto;
+}
+
+#Instagram {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: 500px;
+}
+
+.fbLink a {
+    justify-content: flex-end;
+    font-family: 'Infinity';
+    float: right;
+    margin-top: -100px;
+    margin-right: 550px;
+    text-decoration: none;
+}
+
+.igLink a {
+    justify-content: flex-end;
+    font-family: 'Infinity';
+    float: left;
+    margin-top: -100px;
+    margin-left: 550px;
+    text-decoration: none;
 }
