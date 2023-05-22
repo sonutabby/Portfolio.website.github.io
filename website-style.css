@@ -250,8 +250,9 @@ p {
 h3 {
     font-family: 'Infinity';
     color: white;
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
+    margin-top: 15px;
 }
 
 .inputbox {
