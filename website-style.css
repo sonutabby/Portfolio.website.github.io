@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 .topnav {
     background-color: rgb(39, 39, 65);
     background: -webkit-linear-gradient(to right, rgb(22, 22, 42), rgb(48, 48, 63));
@@ -19,12 +20,13 @@
 .topnav a {
     color: white;
     text-align: right;
-    padding: 25px;
+    padding: 15px;
     margin: 25px;
     text-decoration: none;
     margin-right: 50px;
     float: right;
     margin-top: 5px;
+    transition: transform 0.3s ease 0s;
 }
 
 @font-face {
@@ -179,6 +181,7 @@ p {
 }
 
 .igLink a:hover {
+    padding: 5px;
     color: black;
     border-radius: 5px;
     transition:.5s;
@@ -201,6 +204,7 @@ p {
 }
 
 .fbLink a:hover {
+    padding: 5px;
     color: white;
     border-radius: 5px;
     transition:.5s;
@@ -224,7 +228,7 @@ p {
 
 .signup {
     margin-top: -200px;
-    margin-left: 550px;
+    margin-left: 520px;
     text-align: center;
     position: absolute;
     color: white;
@@ -292,14 +296,6 @@ top: -5px;
     font-family: 'Infinity';
 }
 
-.inputbox ion-icon {
-    position: absolute;
-    right: 8px;
-    color: #fff;
-    font-size: 1.2em;
-    top: 20px;
-}
-
 .forget {
     margin: -15px 0 15px;
     font-size: .9em;
@@ -337,8 +333,6 @@ button {
     font-family: 'Infinity';
 }
 
-
-
 .register {
     font-size: .9em;
     color: #fff;
@@ -356,3 +350,81 @@ button {
     text-decoration: underline;
     color: darkblue;
 }
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.aboutgame h2 {
+    margin-top: 100px;
+}
+
+/*.column {
+    margin: 50px;
+    justify-content: center;
+    pointer-events: none;
+    display: flex;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    flex: none;
+}
+
+.abtpix {
+    overflow-x: scroll;
+    display: flex;
+}
+
+.abtpix ::-webkit-scrollbar {
+    display: none;
+}*/
+
+.gallery {
+    box-shadow: 50%;
+    display: flex;
+    overflow-x: scroll;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+    pointer-events: none;
+}
+
+.gallery div img {
+    width: 100%;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+
+#bckBtn, #newsBtn {
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+/*.gallery div img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}*/
