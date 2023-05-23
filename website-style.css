@@ -410,3 +410,14 @@ button {
     cursor: pointer;
     transform: translateY(-10px);
 }
+
+.gallery-wrap {
+    margin-top: 50px;
+}
+
+.abtgamep p {
+    margin-top: -50px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
