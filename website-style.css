@@ -156,7 +156,7 @@ p {
 #stun {
     pointer-events: none;
     margin-top: 10px;
-    width: 1460px;
+    width: 100%;
     height: 800px;
     filter: brightness(40%);
     position: relative;
@@ -363,31 +363,12 @@ button {
     margin-top: 100px;
 }
 
-/*.column {
-    margin: 50px;
-    justify-content: center;
-    pointer-events: none;
-    display: flex;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-    flex: none;
-}
-
-.abtpix {
-    overflow-x: scroll;
-    display: flex;
-}
-
-.abtpix ::-webkit-scrollbar {
-    display: none;
-}*/
-
 .gallery {
     box-shadow: 50%;
     display: flex;
     overflow-x: scroll;
     cursor: pointer;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s;
 }
 
 .gallery div {
@@ -403,6 +384,8 @@ button {
 .gallery div img {
     width: 100%;
     height: auto;
+    /*filter: grayscale(100%);*/
+    transition: transform 0.5s;
 }
 
 ::-webkit-scrollbar {
@@ -416,15 +399,14 @@ button {
     margin: 10% auto;
 }
 
-#bckBtn, #newsBtn {
+#bckBtn, #nextBtn {
     width: 50px;
     cursor: pointer;
     margin: 40px;
 }
 
-/*.gallery div img:hover {
+.gallery div img:hover {
     filter: grayscale(0);
     cursor: pointer;
-    transform: scale(1.1);
-    transition: transform 0.5s;
-}*/
+    transform: translateY(-10px);
+}
