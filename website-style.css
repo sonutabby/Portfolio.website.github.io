@@ -534,3 +534,22 @@ button {
     margin-right: 700px;
     text-align: left;
 }
+
+.lanes {
+    margin-top: 510px;
+    margin-left: 25px;
+    position: absolute;
+    justify-content: center;
+}
+
+.lanesp {
+    margin-top: 700px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    font-family: 'Infinity';
+    margin-left: 25px;
+    margin-right: 700px;
+    text-align: left;
+}
