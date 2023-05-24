@@ -515,3 +515,22 @@ button {
     position: absolute;
     margin-top: 100px;
 }
+
+.roles {
+    margin-top: 300px;
+    margin-left: 25px;
+    position: absolute;
+    justify-content: center;
+}
+
+.rolesp {
+    margin-top: 500px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    font-family: 'Infinity';
+    margin-left: 25px;
+    margin-right: 700px;
+    text-align: left;
+}
