@@ -113,7 +113,7 @@ p {
 
 
 .social-media {
-    margin-top: 180px;
+    margin-top: 1000px;
 }
 
 #Facebook {
@@ -482,4 +482,36 @@ button {
     border: 3px solid black;
     box-shadow: 2px 3px;
     filter: drop-shadow(50%);
+}
+
+.tourna img {
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.guide img {
+    pointer-events: none;
+    filter: brightness(50%);
+    margin-top: 50px;
+    position: absolute;
+}
+
+.left {
+    margin-top: 200px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    font-family: 'Infinity';
+    margin-left: 25px;
+    margin-right: 700px;
+    text-align: left;
+}
+
+.guide h3 {
+    margin-left: 25px;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
 }
