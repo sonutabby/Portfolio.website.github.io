@@ -168,10 +168,16 @@ p {
 }
 
 .topnav a:hover {
-    color: blueviolet;
+    color: black;
+    border: 3px solid black;
     transition: .3s;
     background: whitesmoke;
     border-radius: 50px;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 0)
+    );
 }
 
 .content a:hover {
@@ -420,4 +426,60 @@ button {
     justify-content: center;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+
+.container{
+    margin-top: 100px;
+    /*display: flex;
+    justify-content: center;*/
+}
+.container h4 {
+    text-align: center;
+    margin-top: 25px;
+    justify-content: center;
+    margin: auto;
+    /*flex-direction: row;*/
+    font-size: 25px;
+    font-family: 'Monogram';
+}
+
+.container img {
+    margin-left: 25px;
+    margin-top: 50px;
+    float: left;
+    pointer-events: none;
+    border: 3px solid black;
+    box-shadow: 2px 3px;
+    filter: drop-shadow(50%);
+}
+
+.container p {
+    margin-top: 30px;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 100px;
+    color:white;
+    background-color: rgb(39, 39, 65);
+    background: -webkit-linear-gradient(to right, rgb(22, 22, 42), rgb(48, 48, 63));
+    background: linear-gradient(to right, rgb(22, 22, 42), rgb(48, 48, 63));
+    padding: 40px;
+    border-radius: 5px;
+    filter: drop-shadow(50%);
+}
+
+.container h3 {
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.container #right {
+    /*float: right;*/
+    margin-right: 25px;
+    margin-top: 110px;
+    pointer-events: none;
+    border: 3px solid black;
+    box-shadow: 2px 3px;
+    filter: drop-shadow(50%);
 }
